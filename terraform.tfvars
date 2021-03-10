@@ -1,5 +1,5 @@
 # Intersight Access API Key
-api_key    = "5bc128dd37636d3874c4c9ce/5bc1285d37636d3874c4bea2/5faf78397564612d30f1d999"
+api_key    = "<your_api_key"
 secret_key = "SecretKey.txt"
 endpoint   = "https://intersight.com"
 
