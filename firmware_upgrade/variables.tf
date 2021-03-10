@@ -3,29 +3,15 @@ variable "api_key" {
   type        = string
   description = "Intersight API key"
 }
-
 variable "secret_key" {
   type        = string
   description = "Intersight Secret Key file"
   default     = "SecretKey.txt"
 }
-
 variable "endpoint" {
   type        = string
   description = "Intersight URL"
   default     = "https://intersight.com"
-}
-
-# Common
-# Tags
-variable "tags" {
-  type = map(string)
-  default = {
-    key1   = "DC"
-    value1 = "SJ"
-    key2   = "ENV"
-    value2 = "LAB"
-  }
 }
 
 # firmware_distributable 
@@ -59,7 +45,6 @@ variable "repo_source_password" {
   type        = string
   description = "value"
 }
-
 /*
 # CIFS 
 variable "repo_source_os_iso_path" {
@@ -78,7 +63,6 @@ variable "repo_source_password" {
   type = string 
   description = "value"
 }
-
 # NFS 
 variable "repo_source_os_iso_path" {
   type = string 
@@ -100,7 +84,6 @@ variable "firmware_upgrade_option" {
   description = "# Option to control the upgrade operation. Some examples, 1) nw_upgrade_mount_only - mount the image from a file server and run the upgrade on the next server boot and 2) nw_upgrade_full - mount the image and immediately run the upgrade.* nw_upgrade_full - Network upgrade option for full upgrade.* nw_upgrade_mount_only - Network upgrade mount only."
   default     = "nw_upgrade_full"
 }
-
 variable "firmware_upgrade_type" {
   type        = string
   description = "Desired upgrade mode to choose either direct download based upgrade or network share upgrade.* direct_upgrade - Upgrade mode is direct download.* network_upgrade - Upgrade mode is network upgrade."
