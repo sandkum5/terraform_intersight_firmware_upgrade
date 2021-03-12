@@ -30,7 +30,7 @@ cd firmware_upgrade
 terraform init
 ```
 
-* Create Terraform exacution plan
+* Create Terraform execution plan
 
 ```txt
 terraform plan
