@@ -17,7 +17,7 @@
 * Clone the repository
 ```txt
 git clone https://github.com/sandkum5/terraform_intersight_firmare_upgrade
-cd firmware_upgrade
+cd terraform_intersight_firmare_upgrade/firmware_upgrade
 ```
 
 * Copy the SecretKey.txt file in the firmware_upgrade directory. 
