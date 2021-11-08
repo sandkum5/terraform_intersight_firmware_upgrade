@@ -1,3 +1,5 @@
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/sandkum5/terraform_intersight_firmware_upgrade)
+
 # Upgrade UCS server firmware using terraform Intersight provider
 * This module upgrades UCS Server firmware using terraform intersight provider
 
